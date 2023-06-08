@@ -1,4 +1,4 @@
-import { IMovie } from '~/types/IMove'
+import { IMovie } from '~/types/IMove';
 
 const getMovieByID = async (id: string): Promise<IMovie> => {
   return await $fetch(
@@ -6,10 +6,10 @@ const getMovieByID = async (id: string): Promise<IMovie> => {
     {
       method: 'GET',
       headers: {
-        Authorization: `Bearer ${useRuntimeConfig().TMDB_KEY}`
-      }
-    }
-  )
-}
+        Authorization: `Bearer ${useRuntimeConfig().TMDB_KEY}`,
+      },
+    },
+  );
+};
 
-export { getMovieByID }
+export { getMovieByID };

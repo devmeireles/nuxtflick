@@ -1,13 +1,13 @@
 <script setup>
-import { getMovieByID } from '~/services/movies'
-const route = useRoute()
+import { getMovieByID } from '~/services/movies';
+const route = useRoute();
 
 definePageMeta({
-  name: 'MovieByID'
-})
+  name: 'MovieByID',
+});
 
-const movieID = route.params.id
-const data = await getMovieByID(movieID)
+const movieID = route.params.id;
+const data = await getMovieByID(movieID);
 
 const movie = {
   title: data.original_title,
@@ -15,10 +15,10 @@ const movie = {
   description: data.overview,
   rate: data.vote_average,
   year: data.release_date,
-  image: getBackdropFormat(data)
-}
+  image: getBackdropFormat(data),
+};
 
-useSeoMeta(buildMetaTags(data))
+useSeoMeta(buildMetaTags(data));
 </script>
 
 <template>

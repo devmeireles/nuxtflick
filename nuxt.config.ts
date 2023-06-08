@@ -1,29 +1,29 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-import { resolve } from 'path'
+import { resolve } from 'path';
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
   alias: {
-    '@': resolve(__dirname, '/')
+    '@': resolve(__dirname, '/'),
   },
 
   css: ['~/assets/main.scss'],
 
   runtimeConfig: {
-    TMDB_KEY: process.env.TMDB_KEY
+    TMDB_KEY: process.env.TMDB_KEY,
   },
 
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {}
-    }
+      autoprefixer: {},
+    },
   },
 
   typescript: {
-    typeCheck: true
+    typeCheck: true,
   },
 
-  modules: ['@pinia/nuxt', 'nuxt-icon']
-})
+  modules: ['@pinia/nuxt', 'nuxt-icon'],
+});

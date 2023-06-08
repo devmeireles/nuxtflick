@@ -1,3 +1,3 @@
 export const SETTINGS = {
-  APP_NAME: 'Nuxtflick'
-}
+  APP_NAME: 'Nuxtflick',
+};

@@ -1,15 +1,17 @@
 <script setup lang="ts">
-const route = useRoute()
+const route = useRoute();
 
 definePageMeta({
-  name: 'Home'
-})
+  name: 'Home',
+});
 </script>
 
 <template>
   <div>
     <h1>Nuxt Routing set up successfully!</h1>
     <p>Current route: {{ route.path }}</p>
-    <a href="https://nuxt.com/docs/getting-started/routing" target="_blank">Learn more about Nuxt Routing</a>
+    <a href="https://nuxt.com/docs/getting-started/routing" target="_blank"
+      >Learn more about Nuxt Routing</a
+    >
   </div>
 </template>

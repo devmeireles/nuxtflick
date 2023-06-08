@@ -2,10 +2,9 @@
 defineProps({
   rate: {
     type: Number,
-    required: true
-  }
-})
-
+    required: true,
+  },
+});
 </script>
 
 <template>

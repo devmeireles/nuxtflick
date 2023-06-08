@@ -1,19 +1,18 @@
 <script setup>
-
 defineProps({
   rate: {
     type: Number,
-    required: true
+    required: true,
   },
   year: {
     type: Number,
-    required: true
+    required: true,
   },
   duration: {
     type: Number,
-    required: true
-  }
-})
+    required: true,
+  },
+});
 </script>
 
 <template>
@@ -29,9 +28,7 @@ defineProps({
     </div>
 
     <div class="px-4">
-      <p class="font-normal text-base text-gray-300">
-        {{ duration }} Minutes
-      </p>
+      <p class="font-normal text-base text-gray-300">{{ duration }} Minutes</p>
     </div>
   </div>
 </template>

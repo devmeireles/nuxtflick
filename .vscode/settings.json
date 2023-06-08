@@ -1,0 +1,8 @@
+{
+  "files.eol": "\n",
+  "vue.codeActions.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  }
+}
