@@ -1,9 +1,9 @@
 <script setup lang="ts">
-const route = useRoute();
+const route = useRoute()
 
 definePageMeta({
   name: 'Home'
-});
+})
 </script>
 
 <template>

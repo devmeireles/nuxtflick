@@ -2,7 +2,7 @@
   <div>
     <NuxtLayout>
       <header>
-        <NavigationHeader/>
+        <NavigationHeader />
       </header>
       <main>
         <div class="pt-16">

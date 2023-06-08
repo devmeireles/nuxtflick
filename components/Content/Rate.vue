@@ -1,7 +1,11 @@
 <script setup>
-const props = defineProps({
-  rate: Number
-});
+defineProps({
+  rate: {
+    type: Number,
+    required: true
+  }
+})
+
 </script>
 
 <template>

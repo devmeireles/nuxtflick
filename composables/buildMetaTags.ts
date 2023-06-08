@@ -1,5 +1,5 @@
-import { SETTINGS } from "~/configs/consts";
-import { IMovie } from "~/types/IMove";
+import { SETTINGS } from '~/configs/consts'
+import { IMovie } from '~/types/IMove'
 
 export const buildMetaTags = (data: IMovie) => {
   return {
@@ -8,6 +8,6 @@ export const buildMetaTags = (data: IMovie) => {
     description: data.overview,
     ogDescription: data.overview,
     ogImage: getBackdropFormat(data),
-    twitterCard: "summary_large_image",
-  };
-};
+    twitterCard: 'summary_large_image'
+  }
+}

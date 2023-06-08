@@ -1,10 +1,19 @@
 <script setup>
 
-const props = defineProps({
-  rate: Number,
-  year: Number,
-  duration: Number,
-});
+defineProps({
+  rate: {
+    type: Number,
+    required: true
+  },
+  year: {
+    type: Number,
+    required: true
+  },
+  duration: {
+    type: Number,
+    required: true
+  }
+})
 </script>
 
 <template>
@@ -14,11 +23,15 @@ const props = defineProps({
 
   <div class="movie-header__data-meta-data flex flex-row">
     <div class="pl-2">
-      <p class="font-normal text-base text-gray-300">{{ year }}</p>
+      <p class="font-normal text-base text-gray-300">
+        {{ year }}
+      </p>
     </div>
 
     <div class="px-4">
-      <p class="font-normal text-base text-gray-300">{{ duration }} Minutes</p>
+      <p class="font-normal text-base text-gray-300">
+        {{ duration }} Minutes
+      </p>
     </div>
   </div>
 </template>
