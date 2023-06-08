@@ -27,5 +27,5 @@ export default defineNuxtConfig({
     typeCheck: true,
   },
 
-  modules: ['@pinia/nuxt', 'nuxt-icon'],
+  modules: ['@pinia/nuxt'],
 });

@@ -17,7 +17,6 @@ defineProps({
 
 <template>
   <div class="movie-header__data-meta-review flex flex-row pr-2">
-    <ContentRate :rate="rate" />
   </div>
 
   <div class="movie-header__data-meta-data flex flex-row">
