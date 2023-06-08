@@ -1,7 +1,7 @@
 import { SETTINGS } from '~/configs/consts';
 import { IMovie } from '~/types/IMove';
 
-export const buildMetaTags = (data: IMovie) => {
+export const buildMovieMetaTags = (data: IMovie) => {
   return {
     title: `${SETTINGS.APP_NAME} - ${data.title}`,
     ogTitle: `${SETTINGS.APP_NAME} - ${data.title}`,

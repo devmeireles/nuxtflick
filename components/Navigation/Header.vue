@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="nav-bar fixed flex flex-row items-center content-end w-full z-10 shadow-sm h-16 bg-white dark:bg-zinc-900"
+    class="nav-bar fixed flex flex-row items-center content-end w-full z-10 shadow-sm h-16 bg-white dark:bg-zinc-800"
   >
     <ul class="flex flex-row pl-8 text-white">
       <li class="hover:font-semibold">

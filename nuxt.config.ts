@@ -11,7 +11,9 @@ export default defineNuxtConfig({
   css: ['~/assets/main.scss'],
 
   runtimeConfig: {
-    TMDB_KEY: process.env.TMDB_KEY,
+    public: {
+      TMDB_KEY: process.env.TMDB_KEY,
+    },
   },
 
   postcss: {

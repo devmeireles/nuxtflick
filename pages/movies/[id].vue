@@ -18,7 +18,7 @@ const movie = {
   image: getBackdropFormat(data),
 };
 
-useSeoMeta(buildMetaTags(data));
+useSeoMeta(buildMovieMetaTags(data));
 </script>
 
 <template>
